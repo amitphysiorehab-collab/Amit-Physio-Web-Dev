@@ -1,0 +1,44 @@
+[
+  {
+    "id": "enq-sample-101",
+    "created_at": "2026-10-20T19:42:39.267Z",
+    "name": "Rajesh Sharma",
+    "phone": "+91 98765 43210",
+    "email": "rajesh.sharma@example.com",
+    "service": "Orthopedic Rehabilitation",
+    "session_type": "In-Clinic Evaluation",
+    "preferred_date": "2026-10-23",
+    "preferred_time": "10:00 AM – 11:30 AM",
+    "message": "Post-knee arthroscopy mobility exercises and strength rebuilding.",
+    "status": "Contacted",
+    "source": "Website"
+  },
+  {
+    "id": "enq-sample-102",
+    "created_at": "2026-10-21T13:42:39.267Z",
+    "name": "Pooja Verma",
+    "phone": "+91 91234 56789",
+    "email": "pooja.verma@example.com",
+    "service": "Neurological Rehabilitation",
+    "session_type": "Home Care Consultation",
+    "preferred_date": "2026-10-24",
+    "preferred_time": "02:00 PM – 03:30 PM",
+    "message": "Rehabilitation assessment for elderly family member recovering from minor stroke.",
+    "status": "Pending",
+    "source": "Website"
+  },
+  {
+    "id": "enq-sample-103",
+    "created_at": "2026-10-21T17:42:39.267Z",
+    "name": "Vikas Tyagi",
+    "phone": "+91 99887 76655",
+    "email": "vikas.t@example.com",
+    "service": "Sports Injury Recovery",
+    "session_type": "In-Clinic Evaluation",
+    "preferred_date": "2026-10-22",
+    "preferred_time": "05:00 PM – 06:30 PM",
+    "message": "Grade 2 ankle sprain during weekend cricket. Need rehab plan.",
+    "status": "Contacted",
+    "source": "WhatsApp"
+  }
+]
