@@ -27,10 +27,27 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
+.env.development
+.env.test
+.env.production
+.env.local
+*.env
 
+# certificates and keys
+*.pem
+*.key
+*.crt
+*.cert
 
-
+# os and editor
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+.vscode/
+.idea/
 
 # vercel
 .vercel
