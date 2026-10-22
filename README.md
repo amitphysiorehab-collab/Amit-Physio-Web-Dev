@@ -102,8 +102,8 @@ A full-stack, responsive web application for **Amit Rehabilitation Centre**, reb
 ## 🔐 Staff Admin Access
 
 - **URL**: [http://localhost:3000/admin/login](http://localhost:3000/admin/login)
-- **Default Email**: `admin@amitrehab.com`
-- **Default Password**: `AmitRehab@2026`
+- **Default Email**: `amitphysiorehab@gmail.com`
+- **Default Password**: `Amitrehab@1234`
 
 ---
 

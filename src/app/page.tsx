@@ -72,14 +72,14 @@ export default function HomePage() {
               <div className="relative mx-auto max-w-md lg:max-w-none">
                 <div className="relative h-[360px] sm:h-[420px] rounded-2xl overflow-hidden shadow-xl border border-slate-100">
                   <Image
-                    src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75"
-                    alt="Physical rehabilitation therapy session in progress"
+                    src="/images/amit-hero.jpg"
+                    alt="Dr. Amit at Amit Rehabilitation Centre"
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 45vw, 480px"
-                    className="object-cover"
+                    className="object-cover object-top"
                     priority
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/20 to-transparent" />
                   
                   <div className="absolute bottom-5 left-5 right-5 text-white">
                     <p className="text-xs font-semibold text-brand-300">E-Block, Beta 1, Greater Noida</p>

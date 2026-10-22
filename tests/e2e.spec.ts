@@ -112,7 +112,9 @@ test.describe("Amit Rehabilitation Centre E2E Test Suite", () => {
 
     await expect(page.getByRole("heading", { name: "Staff Portal Sign In" })).toBeVisible();
 
-    // Login with pre-filled test credentials
+    // Fill admin login credentials
+    await page.fill("#admin-email", "amitphysiorehab@gmail.com");
+    await page.fill("#admin-password", "Amitrehab@1234");
     await page.getByRole("button", { name: "Sign In to Dashboard" }).click();
 
     // Wait for redirect to admin dashboard

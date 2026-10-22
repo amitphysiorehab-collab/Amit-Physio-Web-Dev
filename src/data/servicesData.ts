@@ -49,7 +49,7 @@ export const servicesData: ServiceItem[] = [
     ],
     sessionDuration: "60 minutes",
     iconName: "Brain",
-    image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=75",
+    image: "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=75",
   },
   {
     id: "sports-injury-recovery",

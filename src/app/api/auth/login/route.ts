@@ -4,8 +4,8 @@ export async function POST(request: NextRequest) {
   try {
     const { email, password } = await request.json();
 
-    const expectedEmail = process.env.ADMIN_EMAIL || "admin@amitrehab.com";
-    const expectedPassword = process.env.ADMIN_PASSWORD || "AmitRehab@2026";
+    const expectedEmail = process.env.ADMIN_EMAIL || "amitphysiorehab@gmail.com";
+    const expectedPassword = process.env.ADMIN_PASSWORD || "Amitrehab@1234";
 
     if (!email || !password) {
       return NextResponse.json(
